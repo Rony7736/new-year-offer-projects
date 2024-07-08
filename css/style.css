@@ -195,3 +195,86 @@ body{
     background: rgb(255, 0, 0);
     border: none;
 }
+
+/* Best Offer Section */
+
+.best-offer-container{
+    width: 1320px;
+    height: 430px;
+    margin: 50px auto;
+}
+
+.best-offer-content{
+    display: flex;
+}
+.first-column{
+    width: 33.33%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-column{
+    width: 33.33%;
+    height: 430px;
+}
+.third-column{
+    width: 33.33%;
+    height: 430px;
+}
+.first-column h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.first-column h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.first-column p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.second-column img{
+    width: 100%;
+    height: 100%;
+    border: 15px solid rgb(255, 0, 0);
+    padding: 25px;
+    border-radius: 50%;
+}
+.third-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.third-column h4{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 15px;
+}
+.third-column p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+.third-column img{
+    margin-left: 15px;
+}
