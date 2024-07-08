@@ -384,3 +384,50 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/* Footer Section */
+
+.footer-container{
+    width: 1600px;
+    height: 609px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    background: rgb(7, 2, 17);
+    color: #ffffff;
+}
+.footer-first-section{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.footer-left-content{
+    line-height: 40px;
+}
+
+.contact{
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+}
+.contact p{
+    margin-left: 10px;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.social-icons{
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
